@@ -1,0 +1,145 @@
+/*
+BASICOS
+elemento {
+    propiedad:valor;
+}
+.clase {
+    propiedad: valor;
+}
+#id {
+    propiedad: valor;
+}
+*/
+
+/*CSS RESET*/
+* {
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+h2 {
+    color: red;
+}
+
+.azul {
+    color: blue;
+}
+
+.italica {
+    font-style: italic;
+}
+
+#h1_id {
+    font-size: 100px;
+    background: yellow;
+}
+
+.h1_class {
+    background: green;
+}
+
+.parrafo strong { /*Selecciono un strong que está adentro de una clase parrafo*/
+    text-transform: uppercase;
+}
+
+.contenedor > h4 { /*Descendiente directo de contenedor que es etiqueta h4*/
+    color: purple;
+}
+
+h2.azul { /*Seleccionando el elemento que tenga ambos selectores*/
+    color: yellow;
+}
+
+input[type="text"] {
+    width: 350px;
+}
+
+input[type="number"] {
+    height: 50px;
+}
+
+input, textarea, select {
+    border: 3px solid magenta;
+}
+
+/*COLOR*/
+.color {
+    color: #2eca15; /* #ff0000 rgb(255, 0, 0) red*/
+    background-color: lightgray;
+}
+
+/*TEXTO*/
+.texto {
+    text-align: center; /*left, right, center, justify*/
+    text-decoration:underline; /*underline, line-through, none, overline*/
+    font-style: italic; /*italic, normal*/
+    font-weight: bold; /*100, 200, bold, light*/
+    font-size: 30px; /*px pt em*/
+}
+
+/*TAMAÑO*/
+.tamano {
+    background-color: gray;
+    width: 400px;
+    height: 500px;
+}
+
+/*BACKGROUND*/
+.background {
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+
+    background-color: aqua;
+    background-image: url('../images/gatito_small.jpg');
+    background-size: 100%; /*cover: Estira la imagen para que cubra todo el contendero VERTICALMENTE, 100%: Estira mi imagen horizontalmente*/
+    background-repeat: no-repeat; /*repeat-x, repeat-y, repeat, no-repeat*/
+}
+
+.box-model {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    /*margin: aplica para todos los lados. margin-left, margin-right, margin-top, margin-bottom*/
+    margin: 10px auto; /*1 valor: todos los lados, 2 valores: ARRIBAyABAJO IZQyDER, 4: Ar, D, Ab, I*/
+    border: 2px solid black;
+    /*padding, padding-left, padding-right, padding-top, padding-bottom*/
+    padding: 25px;
+}
+
+.inline {
+    display: inline; /*Me despliega los elementos en una sola línea. No puedo dar un tamaño a mi elemento*/
+}
+
+.block {
+    display: block; /*Me despliega mis elementos como bloque, es decir que comienzan desde el principio de página hasta el ancho total de mi página*/
+}
+
+#div1 {
+    width: 250px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: purple;
+}
+
+#div2 {
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: green;
+}
+
+#div3 {
+    width: 250px;
+    height: 80px;
+    border: 1px solid black;
+    background-color: red;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top; /*bottom, top, middle*/
+}

@@ -1,0 +1,35 @@
+
+GITBASH
+cd      -> Nos permite navegar a través de las carpetas (.. nos permite ir a una carpeta arriba/padre)
+ls      -> Nos dice qué archivos y carpetas se encuentran en mi locación actual
+ls -l   -> Nos dice archivos y carpetas de manera más detallada
+pwd     -> Nos dices dónde estamos
+mkdir   -> Crea una nueva carpeta
+touch   -> Crea un nuevo archivo
+mv      -> Cambia el nombre del archivo O BIEN cambia la locación del archivo
+rm      -> Elimina un archivo
+rmdir   -> Elimina una carpeta
+
+GITBASH
+git config --global user.name "Ricardo Fuentes"
+git config --global user.email rjose.fmarin99@gmail.com
+
+git config --global --list
+
+Pasos primera vez
+
+1)git init (inicializar)
+2)git add . ( agregar los archivos)
+3)git commit -m "Mensaje coherente"
+4) git remote add origin url-de-github
+5) git push -u origin master | main
+
+Pasos despues
+
+1)git add . ( agregar los archivos)
+2)git commit -m "Mensaje coherente"
+3) git push -u origin master | main
+
+
+
+ 
